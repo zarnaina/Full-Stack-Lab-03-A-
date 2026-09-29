@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#count {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#themeButton {
+    margin-top: 20px;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark .container {
+    background-color: #333;
+}
